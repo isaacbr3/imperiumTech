@@ -47,13 +47,14 @@
         </nav>
     </div>
     <div class="contact-clean">
+    <form action="https://api.staticforms.xyz/submit" method="post">
            <h2 class="text-center">Contato</h2>
             <h6 class="text-center">Envie-nos a sua dúvida. Um de nossos representantes entrará em contato em até 24 horas.</h6>
-    <form action="https://api.staticforms.xyz/submit" method="post">
         <input type="hidden" name="accessKey" value="48728faf-b318-4211-8855-8172efb2034c">
-        <input type="text" name="name"> 
-        <input type="text" name="email">
-        <textarea name="message"></textarea> 
+        <input class =" form-control " placeholder =" Name " type="text" name="name"> 
+        <input class =" form-control is-valid " placeholder =" Email " type="text" name="email">
+        < small  class =" form-text text-danger " > Por favor, digite o e-mail correto. </ small >
+        <textarea class =" form-control " rows =" 14 " placeholder =" Message " name="message"></textarea> 
         
         <input type="hidden" name="redirectTo" value="https://imperiumtech.net/"> 
         <input type="submit" value="Submit" />
